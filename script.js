@@ -1,6 +1,31 @@
 let projects = [];
 const grid = document.getElementById('projectsGrid');
 const searchInput = document.getElementById('searchInput');
+const themeBtn = document.getElementById('themeBtn');
+const themeIcon = themeBtn.querySelector('.theme-icon');
+
+// Theme Toggle Logic
+function initTheme() {
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+}
+
+function updateThemeIcon(theme) {
+    themeIcon.textContent = theme === 'dark' ? '🌙' : '☀️';
+}
+
+themeBtn.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+});
+
+// Initialize Theme
+initTheme();
 
 // Fetch projects from JSON
 async function loadProjects() {

@@ -8,6 +8,21 @@
     --primary: #3b82f6;
     --primary-hover: #60a5fa;
     --glass-blur: blur(12px);
+    --transition-speed: 0.3s;
+}
+
+[data-theme="light"] {
+    --bg-color: #f1f5f9;
+    --text-main: #0f172a;
+    --text-muted: #475569;
+    --card-bg: rgba(255, 255, 255, 0.7);
+    --card-border: rgba(0, 0, 0, 0.1);
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+}
+
+body {
+    transition: background-color var(--transition-speed), color var(--transition-speed);
 }
 
 body {
@@ -170,6 +185,38 @@ h1 {
     padding: 3rem;
     color: var(--text-muted);
     font-size: 1.2rem;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+#themeBtn {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    color: var(--text-main);
+    padding: 0.75rem;
+    border-radius: 50%;
+    cursor: pointer;
+    backdrop-filter: var(--glass-blur);
+    transition: all var(--transition-speed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+#themeBtn:hover {
+    transform: scale(1.1);
+    border-color: var(--primary);
+}
+
+.theme-icon {
+    font-size: 1.25rem;
 }
 
 /* Github badge */
