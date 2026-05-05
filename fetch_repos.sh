@@ -18,7 +18,7 @@ while true; do
   fi
   
   # Extract relevant fields for repos with pages or "io" in name
-  page_repos=$(echo "$repos" | jq '[.[] | select(.has_pages or (.name | contains("io"))) | {name: .name, url: ("https://" + .owner.login + ".github.io/" + .name), description: (.description // "")}]')
+  page_repos=$(echo "$repos" | jq '[.[] | select(.has_pages or (.name | contains("io"))) | {name: .name, url: ("https://" + .owner.login + ".github.io/" + .name), description: (.description // ""), pushed_at: .pushed_at}]')
   
   # Merge with existing array
   jq -s '.[0] + .[1]' "$tmp_file" <(echo "$page_repos") > temp.json && mv temp.json "$tmp_file"

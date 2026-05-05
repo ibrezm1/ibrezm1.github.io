@@ -8,6 +8,8 @@ async function loadProjects() {
         const response = await fetch('projects.json');
         if (!response.ok) throw new Error('Failed to load projects.json');
         projects = await response.json();
+        // Sort by latest commit date descending
+        projects.sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
         renderProjects();
     } catch (error) {
         console.error('Error loading projects:', error);
