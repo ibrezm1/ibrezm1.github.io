@@ -9,6 +9,11 @@
     --primary-hover: #60a5fa;
     --glass-blur: blur(12px);
     --transition-speed: 0.3s;
+    --bg-gradient-start: #1e293b;
+    --card-hover-bg: rgba(40, 55, 75, 0.8);
+    --badge-bg: rgba(255, 255, 255, 0.1);
+    --title-color: #e2e8f0;
+    --url-hover-color: #cbd5e1;
 }
 
 [data-theme="light"] {
@@ -19,6 +24,11 @@
     --card-border: rgba(0, 0, 0, 0.1);
     --primary: #2563eb;
     --primary-hover: #1d4ed8;
+    --bg-gradient-start: #e2e8f0;
+    --card-hover-bg: rgba(255, 255, 255, 0.95);
+    --badge-bg: rgba(0, 0, 0, 0.05);
+    --title-color: #0f172a;
+    --url-hover-color: #1e293b;
 }
 
 body {
@@ -27,7 +37,7 @@ body {
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: radial-gradient(circle at top left, #1e293b, var(--bg-color));
+    background: radial-gradient(circle at top left, var(--bg-gradient-start), var(--bg-color));
     background-attachment: fixed;
     color: var(--text-main);
     margin: 0;
@@ -139,14 +149,14 @@ h1 {
     transform: translateY(-8px);
     border-color: var(--primary-hover);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-    background: rgba(40, 55, 75, 0.8);
+    background: var(--card-hover-bg);
 }
 
 .project-title {
     font-size: 1.35rem;
     font-weight: 700;
     word-break: break-all;
-    color: #e2e8f0;
+    color: var(--title-color);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -176,7 +186,7 @@ h1 {
 }
 
 .project-card:hover .project-url {
-    color: #cbd5e1;
+    color: var(--url-hover-color);
 }
 
 .empty-state {
@@ -224,7 +234,7 @@ h1 {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--badge-bg);
     padding: 0.25rem 0.75rem;
     border-radius: 999px;
     font-size: 0.75rem;
