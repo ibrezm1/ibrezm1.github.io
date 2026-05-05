@@ -17,7 +17,7 @@ async function loadProjects() {
 
 function renderProjects(filterText = '') {
     grid.innerHTML = '';
-    const lowerFilter = filterText.toLowerCase();
+    const lowerFilter = filterText.toLowerCase().trim();
     
     let matchCount = 0;
 
@@ -40,14 +40,14 @@ function renderProjects(filterText = '') {
                     ${project.name}
                 </div>
                 <div class="project-url">${project.url}</div>
-                ${project.description ? \`<div class="project-desc">\${project.description}</div>\` : ''}
+                ${project.description ? `<div class="project-desc">${project.description}</div>` : ''}
             `;
             grid.appendChild(a);
         }
     });
 
     if (matchCount === 0 && projects.length > 0) {
-        grid.innerHTML = \`<div class="empty-state">No projects found matching "\${filterText}"</div>\`;
+        grid.innerHTML = `<div class="empty-state">No projects found matching "${filterText}"</div>`;
     }
 }
 
