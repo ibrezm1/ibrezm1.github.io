@@ -39,7 +39,13 @@
     "name": "colorbook",
     "url": "https://ibrezm1.github.io/colorbook",
     "description": "",
-    "pushed_at": "2026-05-05T13:03:21Z"
+    "pushed_at": "2026-05-18T03:00:53Z"
+  },
+  {
+    "name": "Documind-AI",
+    "url": "https://ibrezm1.github.io/Documind-AI",
+    "description": "",
+    "pushed_at": "2026-06-16T00:36:15Z"
   },
   {
     "name": "Edu-assist01",
@@ -52,6 +58,12 @@
     "url": "https://ibrezm1.github.io/finalSubmission",
     "description": "",
     "pushed_at": "2024-03-08T07:51:08Z"
+  },
+  {
+    "name": "flashcard-viewer",
+    "url": "https://ibrezm1.github.io/flashcard-viewer",
+    "description": "flash",
+    "pushed_at": "2026-06-09T21:26:34Z"
   },
   {
     "name": "flask-app-github-actions",
@@ -81,13 +93,25 @@
     "name": "ibrezm1.github.io",
     "url": "https://ibrezm1.github.io/ibrezm1.github.io",
     "description": "",
-    "pushed_at": "2026-05-05T15:51:45Z"
+    "pushed_at": "2026-05-08T14:24:37Z"
   },
   {
     "name": "ionos-dev",
     "url": "https://ibrezm1.github.io/ionos-dev",
     "description": "ionos-dev",
     "pushed_at": "2024-10-20T17:04:29Z"
+  },
+  {
+    "name": "kids-color-animate",
+    "url": "https://ibrezm1.github.io/kids-color-animate",
+    "description": "",
+    "pushed_at": "2026-05-30T11:32:21Z"
+  },
+  {
+    "name": "LogicPuzzle",
+    "url": "https://ibrezm1.github.io/LogicPuzzle",
+    "description": "",
+    "pushed_at": "2026-06-24T22:54:04Z"
   },
   {
     "name": "lollama",
@@ -100,6 +124,12 @@
     "url": "https://ibrezm1.github.io/minion-go",
     "description": "Example of how to handle background processes with Flask, Celery, and Docker",
     "pushed_at": "2021-11-04T10:49:30Z"
+  },
+  {
+    "name": "Nexter-Playground-Kids",
+    "url": "https://ibrezm1.github.io/Nexter-Playground-Kids",
+    "description": "Next like opensource playground",
+    "pushed_at": "2026-06-21T23:17:48Z"
   },
   {
     "name": "Replit-eduquest",
@@ -122,7 +152,7 @@
   {
     "name": "Vedio-SOP-generator",
     "url": "https://ibrezm1.github.io/Vedio-SOP-generator",
-    "description": "",
-    "pushed_at": "2026-05-08T14:13:23Z"
+    "description": "Vedio SOP generator",
+    "pushed_at": "2026-05-15T17:32:43Z"
   }
 ]
