@@ -30,7 +30,7 @@ initTheme();
 // Fetch projects from JSON
 async function loadProjects() {
     try {
-        const response = await fetch('projects.json');
+        const response = await fetch('projects.json?_t=' + Date.now());
         if (!response.ok) throw new Error('Failed to load projects.json');
         projects = await response.json();
         // Sort by latest commit date descending
