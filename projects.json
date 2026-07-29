@@ -6,10 +6,10 @@
     "pushed_at": "2026-04-30T02:39:57Z"
   },
   {
-    "name": "AI-Task-Generator-Tracker",
+    "name": "AI-Task-planner",
     "url": "https://ibrezm1.github.io/AI-Task-planner",
-    "description": "AI Co-Pilot: Task Generator & Tracker",
-    "pushed_at": "2026-07-18T22:06:41Z"
+    "description": "",
+    "pushed_at": "2026-07-24T23:55:42Z"
   },
   {
     "name": "aiops-papers-v1",
@@ -57,7 +57,7 @@
     "name": "Edu-assist01",
     "url": "https://ibrezm1.github.io/Edu-assist01",
     "description": "",
-    "pushed_at": "2026-06-27T00:14:14Z"
+    "pushed_at": "2026-07-25T03:35:10Z"
   },
   {
     "name": "finalSubmission",
@@ -99,7 +99,7 @@
     "name": "ibrezm1.github.io",
     "url": "https://ibrezm1.github.io/ibrezm1.github.io",
     "description": "",
-    "pushed_at": "2026-07-06T17:37:30Z"
+    "pushed_at": "2026-07-18T22:11:53Z"
   },
   {
     "name": "ionos-dev",
@@ -144,6 +144,12 @@
     "pushed_at": "2026-06-21T23:17:48Z"
   },
   {
+    "name": "page-search-io",
+    "url": "https://ibrezm1.github.io/page-search-io",
+    "description": "",
+    "pushed_at": "2026-07-29T21:57:58Z"
+  },
+  {
     "name": "Replit-eduquest",
     "url": "https://ibrezm1.github.io/Replit-eduquest",
     "description": "Eduquest Mock",
@@ -159,7 +165,7 @@
     "name": "text2barcode",
     "url": "https://ibrezm1.github.io/text2barcode",
     "description": "",
-    "pushed_at": "2026-07-08T21:15:33Z"
+    "pushed_at": "2026-07-08T23:16:42Z"
   },
   {
     "name": "tmp-sql-explorer",
