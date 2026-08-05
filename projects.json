@@ -42,10 +42,22 @@
     "pushed_at": "2021-08-13T03:51:46Z"
   },
   {
+    "name": "Color-remover",
+    "url": "https://ibrezm1.github.io/Color-remover",
+    "description": "",
+    "pushed_at": "2026-08-01T21:02:00Z"
+  },
+  {
     "name": "colorbook",
     "url": "https://ibrezm1.github.io/colorbook",
     "description": "",
     "pushed_at": "2026-05-18T03:00:53Z"
+  },
+  {
+    "name": "Crop-Remove-background",
+    "url": "https://ibrezm1.github.io/Crop-Remove-background",
+    "description": "",
+    "pushed_at": "2026-08-05T12:33:18Z"
   },
   {
     "name": "Documind-AI",
@@ -57,7 +69,7 @@
     "name": "Edu-assist01",
     "url": "https://ibrezm1.github.io/Edu-assist01",
     "description": "",
-    "pushed_at": "2026-07-25T03:35:10Z"
+    "pushed_at": "2026-08-03T03:28:49Z"
   },
   {
     "name": "finalSubmission",
@@ -99,7 +111,7 @@
     "name": "ibrezm1.github.io",
     "url": "https://ibrezm1.github.io/ibrezm1.github.io",
     "description": "",
-    "pushed_at": "2026-07-18T22:11:53Z"
+    "pushed_at": "2026-07-29T22:04:29Z"
   },
   {
     "name": "ionos-dev",
@@ -126,6 +138,12 @@
     "pushed_at": "2026-05-01T23:35:48Z"
   },
   {
+    "name": "Madorian-generator-solver",
+    "url": "https://ibrezm1.github.io/Madorian-generator-solver",
+    "description": "",
+    "pushed_at": "2026-07-31T10:51:44Z"
+  },
+  {
     "name": "math-test-kids",
     "url": "https://ibrezm1.github.io/math-test-kids",
     "description": "",
@@ -147,13 +165,19 @@
     "name": "page-search-io",
     "url": "https://ibrezm1.github.io/page-search-io",
     "description": "",
-    "pushed_at": "2026-07-29T21:57:58Z"
+    "pushed_at": "2026-07-29T23:52:50Z"
   },
   {
     "name": "Replit-eduquest",
     "url": "https://ibrezm1.github.io/Replit-eduquest",
     "description": "Eduquest Mock",
     "pushed_at": "2025-12-09T03:21:02Z"
+  },
+  {
+    "name": "rotated-square-cropper",
+    "url": "https://ibrezm1.github.io/rotated-square-cropper",
+    "description": "",
+    "pushed_at": "2026-08-02T22:05:42Z"
   },
   {
     "name": "Techcamp01",
