@@ -127,6 +127,12 @@ h1 {
     gap: 0.75rem;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.project-card:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
 }
 
 .project-card::before {
@@ -245,4 +251,44 @@ h1 {
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+}
+
+/* Card Actions styling */
+.project-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="light"] .project-actions {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.action-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary);
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .action-link {
+    color: var(--primary-hover);
+}
+
+.repo-btn {
+    color: var(--text-muted);
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+.repo-btn:hover {
+    color: var(--text-main);
+    transform: scale(1.15);
 }
