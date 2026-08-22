@@ -81,7 +81,7 @@
     "url": "https://ibrezm1.github.io/Edu-assist01",
     "github_url": "https://github.com/ibrezm1/Edu-assist01",
     "description": "",
-    "pushed_at": "2026-08-03T03:28:49Z"
+    "pushed_at": "2026-08-11T19:58:36Z"
   },
   {
     "name": "finalSubmission",
@@ -130,7 +130,7 @@
     "url": "https://ibrezm1.github.io/ibrezm1.github.io",
     "github_url": "https://github.com/ibrezm1/ibrezm1.github.io",
     "description": "",
-    "pushed_at": "2026-08-08T20:07:52Z"
+    "pushed_at": "2026-08-08T20:08:56Z"
   },
   {
     "name": "ionos-dev",
@@ -193,7 +193,7 @@
     "url": "https://ibrezm1.github.io/page-search-io",
     "github_url": "https://github.com/ibrezm1/page-search-io",
     "description": "",
-    "pushed_at": "2026-07-29T23:52:50Z"
+    "pushed_at": "2026-08-12T19:30:12Z"
   },
   {
     "name": "Replit-eduquest",
@@ -207,14 +207,14 @@
     "url": "https://ibrezm1.github.io/rotated-square-cropper",
     "github_url": "https://github.com/ibrezm1/rotated-square-cropper",
     "description": "",
-    "pushed_at": "2026-08-02T22:05:42Z"
+    "pushed_at": "2026-08-17T13:54:18Z"
   },
   {
     "name": "Screener-Extractor",
     "url": "https://ibrezm1.github.io/Screener-Extractor",
     "github_url": "https://github.com/ibrezm1/Screener-Extractor",
     "description": "",
-    "pushed_at": "2026-08-08T19:51:01Z"
+    "pushed_at": "2026-08-09T22:17:44Z"
   },
   {
     "name": "Techcamp01",
@@ -229,6 +229,13 @@
     "github_url": "https://github.com/ibrezm1/text2barcode",
     "description": "",
     "pushed_at": "2026-07-08T23:16:42Z"
+  },
+  {
+    "name": "timer-app",
+    "url": "https://ibrezm1.github.io/timer-app",
+    "github_url": "https://github.com/ibrezm1/timer-app",
+    "description": "timer App for Kids to lock time along browser and mobile support",
+    "pushed_at": "2026-08-22T20:40:26Z"
   },
   {
     "name": "tmp-sql-explorer",
