@@ -11,7 +11,7 @@
     "url": "https://ibrezm1.github.io/ai-learn-doomscroll",
     "github_url": "https://github.com/ibrezm1/ai-learn-doomscroll",
     "description": "",
-    "pushed_at": "2026-09-19T21:31:09Z"
+    "pushed_at": "2026-09-19T21:51:29Z"
   },
   {
     "name": "AI-Task-planner",
@@ -84,6 +84,13 @@
     "pushed_at": "2026-06-16T00:36:15Z"
   },
   {
+    "name": "doomscroll-quiz",
+    "url": "https://ibrezm1.github.io/doomscroll-quiz",
+    "github_url": "https://github.com/ibrezm1/doomscroll-quiz",
+    "description": "",
+    "pushed_at": "2026-09-20T02:46:37Z"
+  },
+  {
     "name": "Edu-assist01",
     "url": "https://ibrezm1.github.io/Edu-assist01",
     "github_url": "https://github.com/ibrezm1/Edu-assist01",
@@ -137,7 +144,7 @@
     "url": "https://ibrezm1.github.io/ibrezm1.github.io",
     "github_url": "https://github.com/ibrezm1/ibrezm1.github.io",
     "description": "",
-    "pushed_at": "2026-08-22T21:14:00Z"
+    "pushed_at": "2026-09-19T21:37:04Z"
   },
   {
     "name": "ionos-dev",
@@ -145,6 +152,13 @@
     "github_url": "https://github.com/ibrezm1/ionos-dev",
     "description": "ionos-dev",
     "pushed_at": "2024-10-20T17:04:29Z"
+  },
+  {
+    "name": "Kid-dice-roller",
+    "url": "https://ibrezm1.github.io/Kid-dice-roller",
+    "github_url": "https://github.com/ibrezm1/Kid-dice-roller",
+    "description": "",
+    "pushed_at": "2026-10-04T15:21:05Z"
   },
   {
     "name": "kids-color-animate",
