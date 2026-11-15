@@ -1,0 +1,48 @@
+name: Update Projects Daily
+
+on:
+  schedule:
+    # Runs everyday at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate Secret Token Configuration
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_PAT" ]; then
+            echo "::error::Secret GH_PAT is missing! Please create a Personal Access Token and add it as a repository secret named 'GH_PAT' under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          persist-credentials: true
+
+      - name: Fetch repositories
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          chmod +x fetch_repos.sh
+          ./fetch_repos.sh
+
+      - name: Commit and push changes if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add projects.json
+          if git diff --staged --quiet; then
+            echo "No changes in projects.json. Working tree is clean."
+          else
+            git commit -m "chore: update projects.json [skip ci]"
+            git push origin main
+          fi
