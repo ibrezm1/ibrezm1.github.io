@@ -130,7 +130,7 @@
     "url": "https://ibrezm1.github.io/ibrezm1.github.io",
     "github_url": "https://github.com/ibrezm1/ibrezm1.github.io",
     "description": "",
-    "pushed_at": "2026-11-21T05:04:08Z"
+    "pushed_at": "2026-11-22T04:29:20Z"
   },
   {
     "name": "kakooma-fun-game",
@@ -145,6 +145,13 @@
     "github_url": "https://github.com/ibrezm1/Kid-dice-roller",
     "description": "",
     "pushed_at": "2026-10-04T15:21:05Z"
+  },
+  {
+    "name": "kids-board",
+    "url": "https://ibrezm1.github.io/kids-board",
+    "github_url": "https://github.com/ibrezm1/kids-board",
+    "description": "",
+    "pushed_at": "2026-11-22T17:30:57Z"
   },
   {
     "name": "kids-color-animate",
